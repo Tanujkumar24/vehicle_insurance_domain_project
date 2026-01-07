@@ -2,9 +2,9 @@ import os
 from datetime import date
 
 # For MongoDB connection
-DATABASE_NAME = "Proj1"
-COLLECTION_NAME = "Proj1-Data"
-MONGODB_URL_KEY = "MONGODB_URL"
+DATABASE_NAME = "vehicle-insurance"
+COLLECTION_NAME = "vehicle-insurance-Data"
+MONGODB_URL_KEY = "mongodb+srv://tanujmangalapally_db_user:bOru1D1psk5trDUs@cluster0.tezp3pj.mongodb.net/?appName=Cluster0"
 
 PIPELINE_NAME: str = ""
 ARTIFACT_DIR: str = "artifact"

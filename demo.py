@@ -18,3 +18,9 @@ pipline.run_pipeline()
 # client = pymongo.MongoClient(os.getenv("MONGODB_URL"))
 # print(client.list_database_names())
 
+# import boto3
+
+# session = boto3.Session()
+# creds = session.get_credentials()
+
+# print("ACCESS KEY USED:", creds.access_key)

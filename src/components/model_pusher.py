@@ -17,7 +17,7 @@ class ModelPusher:
         """
         self.s3 = SimpleStorageService()
         self.model_evaluation_artifact = model_evaluation_artifact
-        self.model_pusher_config = model_pusher_config
+        self.model_pusher_config = model_pusher_config 
         self.proj1_estimator = Proj1Estimator(bucket_name=model_pusher_config.bucket_name,
                                 model_path=model_pusher_config.s3_model_key_path)
 

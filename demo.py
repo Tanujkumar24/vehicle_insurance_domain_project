@@ -24,3 +24,7 @@ pipline.run_pipeline()
 # creds = session.get_credentials()
 
 # print("ACCESS KEY USED:", creds.access_key)
+
+
+# import boto3
+# print(boto3.client("sts").get_caller_identity())

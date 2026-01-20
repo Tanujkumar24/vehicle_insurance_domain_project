@@ -5,7 +5,7 @@ FROM python:3.10-slim-buster
 WORKDIR /app
 
 # Copy your application code
-COPY . /app
+COPY .. /app
 
 # Install the dependencies
 RUN pip install -r requirements.txt
